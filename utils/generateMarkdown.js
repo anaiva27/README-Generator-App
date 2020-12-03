@@ -1,36 +1,48 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  return `![License: ${data.license}](https://img.shields.io/badge/License-${data.license}-blue.svg)
+  return `# ${data.title}
+  ![License: ${data.license}](https://img.shields.io/badge/License-${data.license}-blue.svg)
 
-# ${data.title}
 ## Table of Contents
   * [Description](#Description)
   * [Installation](#Installation)
   * [Usage](#Usage)
   * [Contributing](#Contributing)
   * [Test](#Test)
+  * [Questions](#Questions)
   * [License](#License)
-  
-## Description 
 
+
+## Description  
+<hr>
 ${data.description}
+<br><br> 
 
-
-## Installation 
+## Installation
+<hr> 
 ${data.installation}
-
+<br><br>
 
 ## Usage 
+<hr>
 ${data.usage}
-
+<br><br>
 
 ## Contributing
+<hr>
 ${data.contributing}
-
+<br><br> 
 
 ## Test
+<hr>
 ${data.test}
+<br><br>
 
+## Questions
+If you have any questions regarding this project, you can contact me via email: [${data.email}](mailto:${data.email}) 
+<br>
+You can also find my profile on GitHub, my username is [${data.username}](https://github.com/${data.username}) 
+<br>
 
 ## License
 ![License: ${data.license}](https://img.shields.io/badge/License-${data.license}-blue.svg)
@@ -38,11 +50,3 @@ ${data.test}
 }
 
 module.exports = generateMarkdown;
-
-
-
-// description, installation instructions, usage information, contribution guidelines, and test instructions
-
-// [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-// ![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)
