@@ -11,7 +11,7 @@ const questions = [
   },
     {
       type: 'input',
-      message: 'Description of the goal you want to achive?',
+      message: 'Description of the goals you want to achive?',
       name: 'description',
     },
     {
@@ -26,12 +26,12 @@ const questions = [
     },
     {
       type: 'input',
-      message: 'Mention any contribution?',
+      message: 'Mention any guidelines for contributions?',
       name: 'contributing',
     },
     {
       type: 'input',
-      message: 'test?',
+      message: 'Show any screenshoots or test results?',
       name: 'test',
     },
     {
@@ -39,6 +39,16 @@ const questions = [
       name: "license",
       message: "What kind of license should your project have?",
       choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
+    },
+    {
+      type: 'input',
+      message: 'What is your email address?',
+      name: 'email',
+    },
+    {
+      type: 'input',
+      message: 'What is your GitHub username?',
+      name: 'name',
     },
 
 ];
