@@ -51,7 +51,11 @@ const questions = [
     message: 'What is your GitHub username?',
     name: 'username',
   },
-
+  {
+    type: 'input',
+    message: 'Enter the year when the project has been created and your name?',
+    name: 'yearAndName',
+  },
 ];
 
 // function to write README file
