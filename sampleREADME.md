@@ -1,4 +1,4 @@
-# Project Title
+# PROJECT TITLE
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Table of Contents
@@ -28,7 +28,7 @@ Usage
 
 ## Contributing
 
-Contributng guidelines
+Contributing guidelines
 <br><br> 
 
 ## Test
@@ -37,7 +37,7 @@ Test test test
 <br><br>
 
 ## Questions
-If you have any questions regarding this project, you can contact me via email: [anaiva27@gmail.com](mailto:anaiva27@gmail.com) 
+If you have any questions regarding this project, you can contact me via email: [anaiva@gmail.com](mailto:anaiva@gmail.com) 
 <br>
 You can also find my profile on GitHub, my username is [anaiva27](https://github.com/anaiva27) 
 <br>
