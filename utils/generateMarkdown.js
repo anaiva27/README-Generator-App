@@ -88,27 +88,27 @@ switch (data.license) {
 
 
 ## Description  
-<hr>
+
 ${data.description}
 <br><br> 
 
 ## Installation
-<hr> 
+
 ${data.installation}
 <br><br>
 
 ## Usage 
-<hr>
+
 ${data.usage}
 <br><br>
 
 ## Contributing
-<hr>
+
 ${data.contributing}
 <br><br> 
 
 ## Test
-<hr>
+
 ${data.test}
 <br><br>
 
